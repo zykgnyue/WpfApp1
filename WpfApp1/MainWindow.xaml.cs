@@ -27,7 +27,8 @@ namespace WpfApp1
             stu = new Student();
 
             //here binding DataContext, in Xaml binding data path
-            //Test Push Second time
+            //Test Push Second time Trid
+
             textBlkDetail.DataContext = this.stu;
 
         }
