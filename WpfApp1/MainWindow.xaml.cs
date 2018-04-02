@@ -26,7 +26,8 @@ namespace WpfApp1
             InitializeComponent();
             stu = new Student();
 
-            //Xaml binding
+            //here binding DataContext, in Xaml binding data path
+            //Test Push
             textBlkDetail.DataContext = this.stu;
 
         }
