@@ -57,7 +57,8 @@ namespace WpfApp1
         {
             //Data flow Source to target
             stu.LastName += " #Source to Target# ";
-            
+            stu.EmailAddress += " #changed# ";
+            stu.StudentID += 1;
         }
 
         private void buttonTarget2Source_Click(object sender, RoutedEventArgs e)
@@ -77,10 +78,10 @@ namespace WpfApp1
         {
             WindowStudentDetail win1 = new WindowStudentDetail(this);
             //win1 below will not block MainWindow until win1 closed
-            win1.Show();
+            //win1.Show();
 
             //win1 below will block MainWindow until win1 closed
-            //win1.ShowDialog();
+            win1.ShowDialog();
         }
     }
 }
